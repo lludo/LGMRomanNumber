@@ -1,21 +1,25 @@
 LGMRomanNumber
 ==============
 
-`LGMRomanNumber` is an iOS library to convert decimal numbers to/from roman numbers.
+`LGMRomanNumber` is an iOS library to convert arabic numbers to/from roman numbers.
+
+## Description
+
+This library provides a convinient way to convert arabic numbers to roman numbers and vice versa. It also validates that the input values are valid and throws exceptions if not.
+All the rules and specific cases are applied when converting to roman numbers, see [Wikipedia](http://en.wikipedia.org/wiki/Roman_numerals) for more details.
+Converting arabic values in interval [1, 4000] or roman numbers in interval [I, MMMM];
 
 ## Usage
 
 You just have to `#import "LGMRomanNumber.h"` to be able to use it.
 
 ``` objective-c
-NSString *romanNumber = [LGMRomanNumber romanFromDecimal:1986];
+NSString *romanNumber = [LGMRomanNumber romanFromArabic:1986];
 // romanNumber value is MCMLXXXVI
 
-NSUInteger decimalNumber = [LGMRomanNumber decimalFromRoman:@"MMXIII"];
-// decimalNumber value is 2013
+NSUInteger arabicNumber = [LGMRomanNumber arabicFromRoman:@"MMXIII"];
+// arabicNumber value is 2013
 ```
-
-Converting decimal values in interval [1, 4000] or roman numbers [I, MMMM];
 
 ## Credits
 
