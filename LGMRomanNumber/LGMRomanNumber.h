@@ -26,18 +26,18 @@
 #import <Foundation/Foundation.h>
 
 /**
- * Manages convertions from/to roman numbers.
+ * Manages convertions between arabic and roman numbers.
  */
 @interface LGMRomanNumber : NSObject
 
 /**
- * Convert a decimal number to roman.
+ * Convert a arabic number to roman.
  */
-+ (NSString *)romanFromDecimal:(NSUInteger)decimal;
++ (NSString *)romanFromArabic:(NSUInteger)arabic;
 
 /**
  * Convert a roman number to decimal.
  */
-+ (NSUInteger)decimalFromRoman:(NSString *)roman;
++ (NSUInteger)arabicFromRoman:(NSString *)arabic;
 
 @end

@@ -53,39 +53,39 @@ static NSArray *_romanNumeralValues;
     return _romanNumeralValues;
 }
 
-+ (NSString *)romanFromDecimal:(NSUInteger)decimal {
++ (NSString *)romanFromArabic:(NSUInteger)arabic {
     
-    if (decimal <= 0u) {
-        [NSException raise:@"Invalid decimal value" format:@"*** -[LGMRomanNumber romanFromDecimal:]: decimal value %d should be greater than 0", decimal];
+    if (arabic <= 0u) {
+        [NSException raise:@"Invalid decimal value" format:@"*** -[LGMRomanNumber romanFromArabic:]: arabic value %d should be greater than 0", arabic];
     }
     
-    if (decimal > 4000u) {
-        [NSException raise:@"Invalid decimal value" format:@"*** -[LGMRomanNumber romanFromDecimal:]: decimal value %d should be smaller or equals to 4000", decimal];
+    if (arabic > 4000u) {
+        [NSException raise:@"Invalid decimal value" format:@"*** -[LGMRomanNumber romanFromArabic:]: arabic value %d should be smaller or equals to 4000", arabic];
     }
     
     NSMutableArray *result = [NSMutableArray array];
     for (NSUInteger index = 0u; index < [self.romanNumeralNumbers count]; index++) {
         NSUInteger romanNumeralInteger = [[self.romanNumeralNumbers objectAtIndex:index] integerValue];
         
-        while (decimal >= romanNumeralInteger) {
+        while (arabic >= romanNumeralInteger) {
             NSString *romanNumeralValue = [self.romanNumeralValues objectAtIndex:index];
             [result addObject:romanNumeralValue];
-            decimal -= romanNumeralInteger;
+            arabic -= romanNumeralInteger;
         }
     }
     
     return [result componentsJoinedByString:@""];
 }
 
-+ (NSUInteger)decimalFromRoman:(NSString *)roman {
++ (NSUInteger)arabicFromRoman:(NSString *)roman {
     
     if ([roman length] < 1) {
-        [NSException raise:@"Invalid roman number" format:@"*** -[LGMRomanNumber decimalFromRoman:]: roman number %@ needs at least one charater", roman];
+        [NSException raise:@"Invalid roman number" format:@"*** -[LGMRomanNumber arabicFromRoman:]: roman number %@ needs at least one charater", roman];
     }
     
     NSPredicate *romanPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES 'M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})'"];
     if (![romanPredicate evaluateWithObject:roman]) {
-        [NSException raise:@"Invalid roman number" format:@"*** -[LGMRomanNumber decimalFromRoman:]: roman number %@ has an invalid format", roman];
+        [NSException raise:@"Invalid roman number" format:@"*** -[LGMRomanNumber arabicFromRoman:]: roman number %@ has an invalid format", roman];
     }
     
     NSUInteger previous = [[self.romanNumeralNumbers objectAtIndex:0u] unsignedIntegerValue];

@@ -27,8 +27,8 @@
 
 @interface LGMRomanNumberTests : SenTestCase
 
-- (void)testRomanFromDecimal;
-- (void)testDecimalFromRoman;
+- (void)testRomanFromArabic;
+- (void)testArabicFromRoman;
 - (void)testReflexiveConversion;
 
 @end
