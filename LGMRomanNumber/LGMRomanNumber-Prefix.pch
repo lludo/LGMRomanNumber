@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'LGMRomanNumber' target in the 'LGMRomanNumber' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
