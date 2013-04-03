@@ -38,6 +38,6 @@
 /**
  * Convert a roman number to decimal.
  */
-+ (NSUInteger)arabicFromRoman:(NSString *)arabic;
++ (NSUInteger)arabicFromRoman:(NSString *)roman;
 
 @end
