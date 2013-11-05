@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820AB5A218246DE400E0B5D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820AB5A018246DDB00E0B5D3 /* UIKit.framework */; };
 		82594B051707CD2600C56C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82594B041707CD2600C56C17 /* Foundation.framework */; };
 		82594B0A1707CD2600C56C17 /* LGMRomanNumber.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82594B091707CD2600C56C17 /* LGMRomanNumber.h */; };
 		82594B0C1707CD2600C56C17 /* LGMRomanNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 82594B0B1707CD2600C56C17 /* LGMRomanNumber.m */; };
-		82594B141707CD2600C56C17 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82594B131707CD2600C56C17 /* SenTestingKit.framework */; };
-		82594B161707CD2600C56C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82594B151707CD2600C56C17 /* UIKit.framework */; };
-		82594B171707CD2600C56C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82594B041707CD2600C56C17 /* Foundation.framework */; };
-		82594B1A1707CD2600C56C17 /* libLGMRomanNumber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82594B011707CD2600C56C17 /* libLGMRomanNumber.a */; };
-		82594B201707CD2600C56C17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82594B1E1707CD2600C56C17 /* InfoPlist.strings */; };
-		82594B231707CD2600C56C17 /* LGMRomanNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82594B221707CD2600C56C17 /* LGMRomanNumberTests.m */; };
+		8268D51F182488F3000CEFF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8268D51E182488F3000CEFF5 /* XCTest.framework */; };
+		8268D520182488F3000CEFF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82594B041707CD2600C56C17 /* Foundation.framework */; };
+		8268D521182488F3000CEFF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820AB5A018246DDB00E0B5D3 /* UIKit.framework */; };
+		8268D527182488F3000CEFF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8268D525182488F3000CEFF5 /* InfoPlist.strings */; };
+		8268D529182488F3000CEFF5 /* LGMRomanNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8268D528182488F3000CEFF5 /* LGMRomanNumberTests.m */; };
+		8268D56618248F43000CEFF5 /* libLGMRomanNumber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82594B011707CD2600C56C17 /* libLGMRomanNumber.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		82594B181707CD2600C56C17 /* PBXContainerItemProxy */ = {
+		8268D52B182488F3000CEFF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 82594AF91707CD2600C56C17 /* Project object */;
 			proxyType = 1;
@@ -42,18 +43,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		820AB5A018246DDB00E0B5D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		82594B011707CD2600C56C17 /* libLGMRomanNumber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLGMRomanNumber.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		82594B041707CD2600C56C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82594B081707CD2600C56C17 /* LGMRomanNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LGMRomanNumber-Prefix.pch"; sourceTree = "<group>"; };
 		82594B091707CD2600C56C17 /* LGMRomanNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGMRomanNumber.h; sourceTree = "<group>"; };
 		82594B0B1707CD2600C56C17 /* LGMRomanNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGMRomanNumber.m; sourceTree = "<group>"; };
-		82594B121707CD2600C56C17 /* LGMRomanNumberTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGMRomanNumberTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		82594B131707CD2600C56C17 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		82594B151707CD2600C56C17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		82594B1D1707CD2600C56C17 /* LGMRomanNumberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LGMRomanNumberTests-Info.plist"; sourceTree = "<group>"; };
-		82594B1F1707CD2600C56C17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82594B211707CD2600C56C17 /* LGMRomanNumberTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGMRomanNumberTests.h; sourceTree = "<group>"; };
-		82594B221707CD2600C56C17 /* LGMRomanNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGMRomanNumberTests.m; sourceTree = "<group>"; };
+		8268D51D182488F3000CEFF5 /* LGMRomanNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGMRomanNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8268D51E182488F3000CEFF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8268D524182488F3000CEFF5 /* LGMRomanNumberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LGMRomanNumberTests-Info.plist"; sourceTree = "<group>"; };
+		8268D526182488F3000CEFF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8268D528182488F3000CEFF5 /* LGMRomanNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGMRomanNumberTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,17 +63,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				82594B051707CD2600C56C17 /* Foundation.framework in Frameworks */,
+				820AB5A218246DE400E0B5D3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82594B0E1707CD2600C56C17 /* Frameworks */ = {
+		8268D51A182488F3000CEFF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82594B141707CD2600C56C17 /* SenTestingKit.framework in Frameworks */,
-				82594B161707CD2600C56C17 /* UIKit.framework in Frameworks */,
-				82594B171707CD2600C56C17 /* Foundation.framework in Frameworks */,
-				82594B1A1707CD2600C56C17 /* libLGMRomanNumber.a in Frameworks */,
+				8268D51F182488F3000CEFF5 /* XCTest.framework in Frameworks */,
+				8268D521182488F3000CEFF5 /* UIKit.framework in Frameworks */,
+				8268D520182488F3000CEFF5 /* Foundation.framework in Frameworks */,
+				8268D56618248F43000CEFF5 /* libLGMRomanNumber.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				82594B061707CD2600C56C17 /* LGMRomanNumber */,
-				82594B1B1707CD2600C56C17 /* LGMRomanNumberTests */,
+				8268D522182488F3000CEFF5 /* LGMRomanNumberTests */,
 				82594B031707CD2600C56C17 /* Frameworks */,
 				82594B021707CD2600C56C17 /* Products */,
 			);
@@ -93,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				82594B011707CD2600C56C17 /* libLGMRomanNumber.a */,
-				82594B121707CD2600C56C17 /* LGMRomanNumberTests.octest */,
+				8268D51D182488F3000CEFF5 /* LGMRomanNumberTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +103,9 @@
 		82594B031707CD2600C56C17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				820AB5A018246DDB00E0B5D3 /* UIKit.framework */,
 				82594B041707CD2600C56C17 /* Foundation.framework */,
-				82594B131707CD2600C56C17 /* SenTestingKit.framework */,
-				82594B151707CD2600C56C17 /* UIKit.framework */,
+				8268D51E182488F3000CEFF5 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,21 +128,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		82594B1B1707CD2600C56C17 /* LGMRomanNumberTests */ = {
+		8268D522182488F3000CEFF5 /* LGMRomanNumberTests */ = {
 			isa = PBXGroup;
 			children = (
 				82594B211707CD2600C56C17 /* LGMRomanNumberTests.h */,
-				82594B221707CD2600C56C17 /* LGMRomanNumberTests.m */,
-				82594B1C1707CD2600C56C17 /* Supporting Files */,
+				8268D528182488F3000CEFF5 /* LGMRomanNumberTests.m */,
+				8268D523182488F3000CEFF5 /* Supporting Files */,
 			);
 			path = LGMRomanNumberTests;
 			sourceTree = "<group>";
 		};
-		82594B1C1707CD2600C56C17 /* Supporting Files */ = {
+		8268D523182488F3000CEFF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				82594B1D1707CD2600C56C17 /* LGMRomanNumberTests-Info.plist */,
-				82594B1E1707CD2600C56C17 /* InfoPlist.strings */,
+				8268D524182488F3000CEFF5 /* LGMRomanNumberTests-Info.plist */,
+				8268D525182488F3000CEFF5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,24 +167,23 @@
 			productReference = 82594B011707CD2600C56C17 /* libLGMRomanNumber.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		82594B111707CD2600C56C17 /* LGMRomanNumberTests */ = {
+		8268D51C182488F3000CEFF5 /* LGMRomanNumberTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82594B291707CD2600C56C17 /* Build configuration list for PBXNativeTarget "LGMRomanNumberTests" */;
+			buildConfigurationList = 8268D52D182488F3000CEFF5 /* Build configuration list for PBXNativeTarget "LGMRomanNumberTests" */;
 			buildPhases = (
-				82594B0D1707CD2600C56C17 /* Sources */,
-				82594B0E1707CD2600C56C17 /* Frameworks */,
-				82594B0F1707CD2600C56C17 /* Resources */,
-				82594B101707CD2600C56C17 /* ShellScript */,
+				8268D519182488F3000CEFF5 /* Sources */,
+				8268D51A182488F3000CEFF5 /* Frameworks */,
+				8268D51B182488F3000CEFF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				82594B191707CD2600C56C17 /* PBXTargetDependency */,
+				8268D52C182488F3000CEFF5 /* PBXTargetDependency */,
 			);
 			name = LGMRomanNumberTests;
 			productName = LGMRomanNumberTests;
-			productReference = 82594B121707CD2600C56C17 /* LGMRomanNumberTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 8268D51D182488F3000CEFF5 /* LGMRomanNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,37 +207,21 @@
 			projectRoot = "";
 			targets = (
 				82594B001707CD2600C56C17 /* LGMRomanNumber */,
-				82594B111707CD2600C56C17 /* LGMRomanNumberTests */,
+				8268D51C182488F3000CEFF5 /* LGMRomanNumberTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		82594B0F1707CD2600C56C17 /* Resources */ = {
+		8268D51B182488F3000CEFF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82594B201707CD2600C56C17 /* InfoPlist.strings in Resources */,
+				8268D527182488F3000CEFF5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		82594B101707CD2600C56C17 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82594AFD1707CD2600C56C17 /* Sources */ = {
@@ -247,29 +232,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82594B0D1707CD2600C56C17 /* Sources */ = {
+		8268D519182488F3000CEFF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82594B231707CD2600C56C17 /* LGMRomanNumberTests.m in Sources */,
+				8268D529182488F3000CEFF5 /* LGMRomanNumberTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		82594B191707CD2600C56C17 /* PBXTargetDependency */ = {
+		8268D52C182488F3000CEFF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 82594B001707CD2600C56C17 /* LGMRomanNumber */;
-			targetProxy = 82594B181707CD2600C56C17 /* PBXContainerItemProxy */;
+			targetProxy = 8268D52B182488F3000CEFF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		82594B1E1707CD2600C56C17 /* InfoPlist.strings */ = {
+		8268D525182488F3000CEFF5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				82594B1F1707CD2600C56C17 /* en */,
+				8268D526182488F3000CEFF5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -354,33 +339,60 @@
 			};
 			name = Release;
 		};
-		82594B2A1707CD2600C56C17 /* Debug */ = {
+		8268D52E182488F3000CEFF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGMRomanNumber/LGMRomanNumber-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "LGMRomanNumberTests/LGMRomanNumberTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		82594B2B1707CD2600C56C17 /* Release */ = {
+		8268D52F182488F3000CEFF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGMRomanNumber/LGMRomanNumber-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "LGMRomanNumberTests/LGMRomanNumberTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -403,14 +415,16 @@
 				82594B281707CD2600C56C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		82594B291707CD2600C56C17 /* Build configuration list for PBXNativeTarget "LGMRomanNumberTests" */ = {
+		8268D52D182488F3000CEFF5 /* Build configuration list for PBXNativeTarget "LGMRomanNumberTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82594B2A1707CD2600C56C17 /* Debug */,
-				82594B2B1707CD2600C56C17 /* Release */,
+				8268D52E182488F3000CEFF5 /* Debug */,
+				8268D52F182488F3000CEFF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

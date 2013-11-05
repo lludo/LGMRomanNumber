@@ -23,9 +23,9 @@
 //  THE SOFTWARE.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface LGMRomanNumberTests : SenTestCase
+@interface LGMRomanNumberTests : XCTestCase
 
 - (void)testRomanFromArabic;
 - (void)testArabicFromRoman;
