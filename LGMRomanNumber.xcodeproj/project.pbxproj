@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		820AB5A218246DE400E0B5D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820AB5A018246DDB00E0B5D3 /* UIKit.framework */; };
 		82594B051707CD2600C56C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82594B041707CD2600C56C17 /* Foundation.framework */; };
 		82594B0A1707CD2600C56C17 /* LGMRomanNumber.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82594B091707CD2600C56C17 /* LGMRomanNumber.h */; };
 		82594B0C1707CD2600C56C17 /* LGMRomanNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 82594B0B1707CD2600C56C17 /* LGMRomanNumber.m */; };
@@ -63,7 +62,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82594B051707CD2600C56C17 /* Foundation.framework in Frameworks */,
-				820AB5A218246DE400E0B5D3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
