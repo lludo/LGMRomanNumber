@@ -1,0 +1,48 @@
+{
+  "system": "roman",
+  "generated": "2026-10-14T05:25:46Z",
+  "legacy": {
+    "label": "Objective-C original, clang 19 + GNUstep base 1.31 (Linux)",
+    "command": ""
+  },
+  "new": {
+    "label": "Swift 6.0.3 port",
+    "command": ""
+  },
+  "selfCheck": {
+    "passed": true,
+    "detail": "each legacy output was compared with a copy changed by one byte and reported as different"
+  },
+  "totals": {
+    "cases": 1,
+    "executed": 1,
+    "same": 1,
+    "differs": 0,
+    "differsApproved": 0,
+    "missing": 0
+  },
+  "cases": [
+    {
+      "id": "ALL",
+      "title": "84,480 inputs (Harness/gen_inputs.py)",
+      "verdict": "same",
+      "reason": "Identical, 1950927 bytes.",
+      "legacyPath": "legacy.txt",
+      "newPath": "new.txt",
+      "legacySha256": "f7cf6c7b719f1cf8a3ff4292684ce3bd35324ec8f01ba6d3cc375190c609cdfa",
+      "newSha256": "f7cf6c7b719f1cf8a3ff4292684ce3bd35324ec8f01ba6d3cc375190c609cdfa",
+      "masked": [],
+      "approvedDifference": "",
+      "note": "",
+      "bytes": {
+        "legacy": 1950927,
+        "new": 1950927
+      },
+      "maskedBytes": {
+        "legacy": 0,
+        "new": 0
+      },
+      "empty": false
+    }
+  ]
+}
