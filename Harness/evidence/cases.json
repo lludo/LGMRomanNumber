@@ -1,0 +1,2 @@
+{"system": "roman", "legacy": {"label": "Objective-C original, clang 19 + GNUstep base 1.31 (Linux)"}, "new": {"label": "Swift 6.0.3 port"},
+ "cases": [{"id": "ALL", "title": "84,480 inputs (Harness/gen_inputs.py)", "legacy": "../out/legacy.txt", "new": "../out/new.txt"}]}
